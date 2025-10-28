@@ -26,7 +26,7 @@ class ChatDetailActivity : AppCompatActivity() {
 
     private var personalityName: String? = null
 
-    private val apiKey = "AIzaSyCfjjedKE5d8Jt6tZZ6ZGmz1Swk5Iug2zM" // Use your valid key here
+    // private val apiKey = "AIzaSyCfjjedKE5d8Jt6tZZ6ZGmz1Swk5Iug2zM" 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -134,3 +134,4 @@ class ChatDetailActivity : AppCompatActivity() {
         })
     }
 }
+
